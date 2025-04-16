@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #af9503;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.image {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+nav ul li:hover {
+    background-color: #d49c24;
+
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.services-overview {
+    background-color: white;
+    padding: 20px;
+}
+
+.service {
+    margin: 15px 0;
+}
+
+footer {
+    background-color: #af9503;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 400px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px }
+
+form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: red;
+}
